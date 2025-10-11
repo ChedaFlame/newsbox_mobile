@@ -1,0 +1,80 @@
+name: newsbox
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get_it: ^7.6.7
+  dio: ^5.4.1
+  dio_smart_retry: ^6.0.0
+  dio_http_formatter: ^3.2.1
+  flutter_bloc: ^8.1.4
+  json_annotation: ^4.8.1
+  equatable: ^2.0.5
+  connectivity_plus: ^5.0.2
+  intl: ^0.20.2
+  carousel_slider: ^4.2.1
+  readmore: ^2.2.0
+  flutter_slidable: ^3.1.0
+  smooth_page_indicator: ^1.1.0
+  flutter_spinkit: ^5.2.1
+  get: ^4.7.2
+  auto_size_text: ^3.0.0
+  sizer: ^3.0.4
+  flutter_svg: ^2.1.0
+  url_launcher: ^6.1.0
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^9.1.6
+  build_runner: ^2.4.8
+  mockito: ^5.4.4
+  analyzer:
+  json_serializable: ^6.7.1
+  flutter_native_splash: ^2.3.10
+  flutter_lints: ^5.0.0
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/mock_apis/
+
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: fonts/Quicksand-Bold.ttf
+        - asset: fonts/Quicksand-Light.ttf
+        - asset: fonts/Quicksand-Medium.ttf
+        - asset: fonts/Quicksand-Regular.ttf
+        - asset: fonts/Quicksand-SemiBold.ttf
+
+
+flutter_intl:
+  enabled: true
+  main_locale: en
