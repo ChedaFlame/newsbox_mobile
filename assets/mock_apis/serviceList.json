@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "customer_id": "125-426-587",
+    "title": "Black Friday Special",
+    "description": "All Full Wash 20% off*",
+    "coupon_code": "BKD65R",
+    "coupon_status": "0",
+    "expiry_date": "2023-11-20"
+  },
+  {
+    "id": "2",
+    "customer_id": "125-426-587",
+    "title": "Easter Specials",
+    "description": "All Wash Types 5% off*",
+    "coupon_code": "FEB32#JJ",
+    "coupon_status": "1",
+    "expiry_date": "2024-04-28"
+  }
+]
