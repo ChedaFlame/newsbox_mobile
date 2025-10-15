@@ -1,0 +1,1 @@
+ /Users/cheda/AndroidStudioProjects/newsbox_mobile/.dart_tool/flutter_build/13ed2211ebdf387b1489313348671a94/native_assets.json: 
